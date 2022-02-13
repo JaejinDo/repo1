@@ -16,7 +16,10 @@ git config --global user.email <yourEmail>
 그 외
 git clone: 리모트 저장소 주소: 로컬 저장소에 리모트 저장소의 모든 것들을 가져온다.
 git status: 변경 사항을 체크한다.
+
 git log: 커밋 내역을 조회한다. (END) 표시가 사라지지 않을 시에는 "q"를 눌러주면 된다.
+git log -p: 단순히 커밋 내역을 조회하는 것이 아니라 어디 부분이 추가되고 수정되었는지 출력해준다.
+
 git add <대상>: 대상을 인덱스에 기록한다.
 git commit -m "": 리모트 저장소에 올리기 전 최종상태로 만든다.
 git push: commit된 것들을 리모트 저장소에 올린다.
