@@ -10,8 +10,8 @@ Git의 Repository 구조는 크게 세 가지로 구성되어 있다.
 명령어 정리
 - - -
 최초 한 번만 하면 되는 것
-git config --global user.name yourName
-git config --global user.email yourEmail
+git config --global user.name <yourName>
+git config --global user.email <yourEmail>
 - - -
 그 외
 git clone: 리모트 저장소 주소: 로컬 저장소에 리모트 저장소의 모든 것들을 가져온다.
