@@ -34,3 +34,4 @@ git add <대상>: 대상을 인덱스에 기록한다.
 git commit -m "": 리모트 저장소에 올리기 전 최종상태로 만든다.
 git push: commit된 것들을 리모트 저장소에 올린다.
 git pull <리모트 저장소의 별칭 보통은 origin> master: 리모트 저장소의 파일 중 로컬 저장소에 없는 것들을 로컬 저장소로 옮긴다.
+git reset HEAD <file>: 이 명령어를 통해 git add를 취소할 수 있다. git reset만 친다면 add한 파일 전체를 취소한다.
