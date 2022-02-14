@@ -19,6 +19,7 @@ git push를 했을 때 위와 같이 에러가 발생하는 경우가 있다.
 최초 한 번만 하면 되는 것
 git config --global user.name <yourName>
 git config --global user.email <yourEmail>
+git config --global core.autocrlf true: 이 명령어를 통해 CRLF를 LF문자로 변환할 수 있다.
 - - -
 그 외
 --help를 붙이면 그 명령어에 대한 헬프창이 나온다. 예) git remote --help
@@ -35,3 +36,4 @@ git commit -m "": 리모트 저장소에 올리기 전 최종상태로 만든다
 git push: commit된 것들을 리모트 저장소에 올린다.
 git pull <리모트 저장소의 별칭 보통은 origin> master: 리모트 저장소의 파일 중 로컬 저장소에 없는 것들을 로컬 저장소로 옮긴다.
 git reset HEAD <file>: 이 명령어를 통해 git add를 취소할 수 있다. git reset만 친다면 add한 파일 전체를 취소한다.
+git remote remove origin: 이 명령어는 연결된 리모트 저장소를 연결을 해제할 수 있다.
