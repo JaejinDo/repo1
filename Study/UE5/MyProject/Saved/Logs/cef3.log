@@ -36,3 +36,9 @@
 [0220/223844.080:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
 [0220/223844.080:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
 [0220/223844.686:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 395
+[0223/002456.932:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0223/002512.861:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0223/002512.862:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0223/002512.862:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0223/002512.862:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0223/002512.944:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 35
